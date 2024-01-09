@@ -1,0 +1,81 @@
+.topBarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #822A29;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.topBarLeft{
+    flex: 4;
+}
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.topBarCenter{
+    flex: 6;
+}
+.topBarCenter .topBarCenterLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.topBarCenter .topBarCenterLinks .linksContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 10px 0 10px;
+    border-radius:10px;
+}
+.topBarCenter .topBarCenterLinks .linksContainer .topBarLink{
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.topBarCenter .topBarCenterLinks .linksContainer:hover{
+    background-color: #DB4948;
+    transition: 0.2s;
+}
+
+
+.topBarRight{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topBarRight .topBarRightLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.topBarRight .topBarRightLinks .topBarLink{
+    cursor: pointer ;
+}
+
+.topBarRight .topBarIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.topBarRight .topBarIcons .iconContainer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+}
+.topBarRight .topBarIcons .topBarIcon{
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+

@@ -1,0 +1,30 @@
+.dashboardContainer{
+    height: 100vh;
+    position: relative;
+    background-color: #822A29;
+}
+
+.mainLayout{
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    gap: 2rem;
+    box-sizing: border-box;
+}
+
+.innerLayout{
+    padding: 2rem 1.5rem;
+    width: 100%;
+}
+
+.dashboardContainer .mainContent{
+    flex: 1;
+    background: #DB4948;
+    border: 3px solid black;
+    border-radius: 32px;
+    overflow: auto;
+    overflow-x: hidden;
+    &::-webkit-scrollbar{
+        width: 0;
+    }
+}
